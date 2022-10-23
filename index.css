@@ -1,36 +1,101 @@
 body {
-    margin: 0;
-    background-color: #1F2937;
+  margin: 0;
+  align-items: center;
+  background-color: #1f2937;
 }
 
-
-
 #div-main-el {
-    width: 500px;
-    height: 300px;
-    padding: 50px   
+  width: 800px;
+  height: 640px;
+  padding-top: 50px;
+  margin: 70px auto;
+  box-shadow: #1f2937 -120px -120px 500px -18px inset,
+    #4adf86 25px 25px 30px -18px inset;
+  border-radius: 20%;
+}
 
+#title-el,
+#title2-el,
+#dis-el {
+  margin-left: 90px;
+}
 
+#title-el,
+#title2-el {
+  font-size: 50pt;
 }
 
 #title-el {
-    
+  margin-top: 50px;
 }
 
-#output-el {
-    
+#title-el,
+#dis-el {
+  color: white;
+}
+
+#dis-el {
+  font-size: 20pt;
+  margin-top: 10px;
+}
+
+#title2-el {
+  color: #4adf86;
+  margin-top: -60px;
+}
+
+#button-el {
+  font-weight: bolder;
+  font-size: 20pt;
+  color: #ffffff;
+  margin-left: 90px;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: #4adf86 0px 0px 15px inset;
+  background-color: #1f2937;
+}
+
+#output-div-el {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #output1-el {
-    
+  color: #4adf86;
+  width: 250px;
+  height: 33.333px;
+  margin-left: 100px;
+  padding-top: 20px;
+  box-shadow: #1f2937 0px -50px 100px -18px inset,
+    #4adf86 15px 15px 18px -18px inset;
+  border-radius: 25px;
+  text-align: center;
 }
 
 #output2-el {
-    
+  color: #4adf86;
+  width: 250px;
+  height: 33.333px;
+  margin-right: 100px;
+  padding-top: 20px;
+  box-shadow: #1f2937 0px -50px 100px -18px inset,
+    #4adf86 15px 15px 18px -18px inset;
+  border-radius: 25px;
+  text-align: center;
 }
-
 
 .div-el {
-    margin: 
+  display: block;
+  justify-items: end;
 }
 
+hr {
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: rgba(74, 223, 134, 20%);
+  border: 1px solid rgba(74, 223, 134, 20%);
+}
