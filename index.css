@@ -8,7 +8,7 @@ body {
   width: 800px;
   height: 640px;
   padding-top: 50px;
-  margin: 70px auto;
+  margin: 30px auto;
   box-shadow: #1f2937 -120px -120px 500px -18px inset,
     #4adf86 25px 25px 30px -18px inset;
   border-radius: 20%;
@@ -98,4 +98,23 @@ hr {
   margin-bottom: 30px;
   background-color: rgba(74, 223, 134, 20%);
   border: 1px solid rgba(74, 223, 134, 20%);
+}
+
+
+#profile{
+  color: #4adf86;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+#profile a{
+  padding: 5px;
+  border: #1f2937 5px solid;
+  border-radius: 25px;
+  box-shadow: #4adf86 1px 1px 10px -1px inset,#4adf86 1px 1px 1px -1px,#4adf86 -1px -1px 1px -1px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  color: #ffffff;
+  text-decoration: none;
 }
